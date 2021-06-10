@@ -13,6 +13,7 @@ pipeline {
             }
         }
     }
+
     // post after stages, for entire pipeline, is also an implicit step albeit
     //with explicit config here, unlike implicit checkout stage
     post {
